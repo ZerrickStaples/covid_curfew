@@ -5,9 +5,12 @@ import Clock from './Date';
 
 function App() {
   return (
-    <div className="App">
-      <Clock/>
-    </div>
+    <body>
+      <img className = "covidLogo" src={logo}></img>
+      <div className="App">
+        <Clock/>
+      </div>
+    </body>
   );
 }
 
